@@ -8,6 +8,6 @@ public class GetSpecificPostTest {
     public void getPosts(){
         // test będzie poprawny, choć takie id nie jest wprowadzone
         // nie sprawdzamy tutaj konkretnej wartości response
-        when().get("http://localhost:3000/posts/2").then().log().all();
+            when().get("http://localhost:3000/posts/1").then().log().all();
     }
 }
