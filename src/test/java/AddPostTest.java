@@ -1,5 +1,6 @@
 import io.restassured.http.ContentType;
 import model.Post;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -48,13 +49,14 @@ public class AddPostTest {
     @Test
     public void addPostObject(){
         Post newPost = new Post();
-        newPost.setTitle("Tytuł obiektowy");
-        newPost.setAuthor("Autor obiektowy");
+        newPost.setTitle("Tytuł obiektowy1");
+        newPost.setAuthor("Autor obiektowy1");
 
-
-        given().log().all().contentType(ContentType.JSON)
+        Post createdPost = given().log().all().contentType(ContentType.JSON)
                 .body(newPost).when()
                 .post("http://localhost:3000/posts")
-                .then().log().all();
+                .then().log().all().extract().body().as(Post.class);
+
+        Assert.assertEquals(newPost, createdPost);
     }
 }
