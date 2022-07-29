@@ -1,0 +1,95 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post Darii",
+      "author": "Daria"
+    },
+    {
+      "id": 2,
+      "title": "Post Jedrzeja",
+      "author": "Jedrzej"
+    },
+    {
+      "id": 3,
+      "title": "trzeci-post",
+      "author": "Name 3 (new)"
+    },
+    {
+      "title": "czwarty-post",
+      "author": "Andrzej - nowy",
+      "id": 5
+    },
+    {
+      "title": "czwarty-post",
+      "author": "Andrzej - nowy",
+      "id": 6
+    },
+    {
+      "title": "czwarty-post",
+      "author": "Andrzej - nowy",
+      "id": 7
+    },
+    {
+      "title": "czwarty-post",
+      "author": "Andrzej - nowy",
+      "id": 8
+    },
+    {
+      "title": "Nowy post z dnia 17 czerwca 2022 roku",
+      "author": "Andrzej - nowy",
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "title": "drugi-post",
+      "author": "Bartosz",
+      "id": 12
+    },
+    {
+      "title": "Pierwszy post z pliku",
+      "author": "Tomek Testowy",
+      "id": 13
+    },
+    {
+      "author": "Daria",
+      "title": "Tytul z mapy",
+      "id": 14
+    },
+    {
+      "title": "Tytuł obiektowy",
+      "author": "Autor obiektowy",
+      "id": 15
+    },
+    {
+      "title": "Tytuł obiektowy",
+      "author": "Autor obiektowy",
+      "id": 16
+    },
+    {
+      "title": "Tytuł obiektowy",
+      "author": "Autor obiektowy",
+      "id": 17
+    },
+    {
+      "title": "Tytuł obiektowy1",
+      "author": "Autor obiektowy1",
+      "id": 18
+    }
+  ],
+  "comments": [
+    {
+      "id": 4,
+      "body": "Komentarz probny do trzeciego posta",
+      "postId": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
